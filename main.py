@@ -5,8 +5,7 @@ import pytesseract
 import json
 from io import BytesIO
 
-# ✅ On Render, don't set this path. Tesseract must be installed via apt in render.yaml
-# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 app = FastAPI()
 
